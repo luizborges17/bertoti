@@ -4,5 +4,5 @@
 #  Diagrama de Desenvolvimento
 
 <div style="display: inline_block"><br>
-  <img align="center" alt="Luiz-diagrama" height="150" width="190" src="https://github.com/luizborges17/bertoti/blob/main/Engenharia%20de%20Software/Atividade1/image/teste/WhatsApp%20Image%202022-03-04%20at%2020.24.40.jpeg">
+  <img align="center" alt="Luiz-diagrama" height="300" width="600" src="https://github.com/luizborges17/bertoti/blob/main/Engenharia%20de%20Software/Atividade1/image/teste/WhatsApp%20Image%202022-03-04%20at%2020.24.40.jpeg">
 </div>

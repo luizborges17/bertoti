@@ -1,7 +1,7 @@
-# Atividade 1
+# Ciclo de vida de desenvolvimento de software
 
 - Atividade desenvolvida na Aula de Enganharia de Software
-#  Diagrama de Desenvolvimento
+#  Diagrama de Classes
 
 <div style="display: inline_block"><br>
   <img align="center" alt="Luiz-diagrama" height="500" width="900" src="https://github.com/luizborges17/bertoti/blob/main/Engenharia%20de%20Software/Atividade1/image/teste/Untitled%20Diagram.drawio.png">

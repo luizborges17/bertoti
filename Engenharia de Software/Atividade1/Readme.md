@@ -88,3 +88,10 @@
   - Heurística 5: Prevenção de erros
   - Heurística 10: Ajuda e documentação
   - Heurística 2: Correspondência entre o sistema e o mundo real
+
+
+# Diagrama de Classes da PLataforma de Ensino
+
+<div style="display: inline_block"><br>
+  <img align="center" alt="Luiz-diagrama" height="500" width="900" src="https://github.com/luizborges17/bertoti/blob/main/Engenharia%20de%20Software/Atividade1/image/teste/Untitled%20Diagram.drawio%20(2).png">
+</div>

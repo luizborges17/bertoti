@@ -1,18 +1,20 @@
 # Ciclo de vida de desenvolvimento de software
 
-- Atividade desenvolvida na Aula de Enganharia de Software
-#  Diagrama de Classes
+- Exemplo plataforma de ensino
 
-<div style="display: inline_block"><br>
-  <img align="center" alt="Luiz-diagrama" height="500" width="900" src="https://github.com/luizborges17/bertoti/blob/main/Engenharia%20de%20Software/Atividade1/image/teste/Untitled%20Diagram.drawio.png">
-</div>
-
-- O primeiro ator é representado como aluno e o segundo ator é representado como professor
+# Requisitos
+## Funcionais
 - No desenvolvimento do projeto é possível perceber os seguintes requisitos funcionas:
   - Postar e criar atividade
   - Criar e ingressar em reuniões
   - Enviar e receber mensagens 
  
+#  Diagrama de casos de uso
+
+<div style="display: inline_block"><br>
+  <img align="center" alt="Luiz-diagrama" height="500" width="900" src="https://github.com/luizborges17/bertoti/blob/main/Engenharia%20de%20Software/Atividade1/image/teste/Untitled%20Diagram.drawio.png">
+</div>
+
  - No desenvolvimento do projeto é possível perceber os seguintes requisitos não funcionais:
    - Anexar e deletar arquivo
    - Comunicar com áudio, mensagem e vídeo
@@ -23,6 +25,14 @@
 <div style="display: inline_block"><br>
   <img align="center" alt="Luiz-diagrama" height="200" width="1300" src="https://github.com/luizborges17/bertoti/blob/main/Engenharia%20de%20Software/Atividade1/image/teste/Cards.jpg">
 </div>
+
+## Não funcionais
+### Usabilidades
+ - No desenvolvimento do projeto é possível perceber os seguintes requisitos não funcionais:
+   - Anexar e deletar arquivo
+   - Comunicar com áudio, mensagem e vídeo
+   - Compartilhar a tela e seu áudio
+   - Ter informações sobre as atividades
 
 # Wireframe
 - #### Tela de Chat
@@ -93,6 +103,7 @@
   - Heurística 10: Ajuda e documentação
   - Heurística 2: Correspondência entre o sistema e o mundo real
 
+# Projeto do Sistema
 
 # Diagrama de Classes da Plataforma de Ensino
 
@@ -100,13 +111,15 @@
   <img align="center" alt="Luiz-diagrama" height="500" width="900" src="https://github.com/luizborges17/bertoti/blob/main/Engenharia%20de%20Software/Atividade1/image/teste/Untitled%20Diagram.drawio%20(2).png">
 </div>
 
-# Classes da Plataforma de Ensino (Disciplina)
+# Desenvolvimento
+
+## Classes da Plataforma de Ensino (Disciplina)
 
 <div style="display: inline_block"><br>
   <img align="center" alt="Luiz-diagrama" height="1800" width="900" src="https://github.com/luizborges17/bertoti/blob/main/Engenharia%20de%20Software/Atividade1/image/teste/Classe_Disciplina.jpg">
 </div>
 
-# Classes da Plataforma de Ensino (Pessoa)
+## Classes da Plataforma de Ensino (Pessoa)
 
 <div style="display: inline_block"><br>
   <img align="center" alt="Luiz-diagrama" height="1800" width="900" src="https://github.com/luizborges17/bertoti/blob/main/Engenharia%20de%20Software/Atividade1/image/teste/Classe_Pessoa.jpg">

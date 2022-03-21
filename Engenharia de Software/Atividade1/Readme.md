@@ -15,12 +15,6 @@
   <img align="center" alt="Luiz-diagrama" height="500" width="900" src="https://github.com/luizborges17/bertoti/blob/main/Engenharia%20de%20Software/Atividade1/image/teste/Untitled%20Diagram.drawio.png">
 </div>
 
- - No desenvolvimento do projeto é possível perceber os seguintes requisitos não funcionais:
-   - Anexar e deletar arquivo
-   - Comunicar com áudio, mensagem e vídeo
-   - Compartilhar a tela e seu áudio
-   - Ter informações sobre as atividades
-
 # Cards
 <div style="display: inline_block"><br>
   <img align="center" alt="Luiz-diagrama" height="200" width="1300" src="https://github.com/luizborges17/bertoti/blob/main/Engenharia%20de%20Software/Atividade1/image/teste/Cards.jpg">

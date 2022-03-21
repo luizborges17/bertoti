@@ -104,3 +104,6 @@
 
 # Classes da Plataforma de Ensino (Pessoa)
 
+<div style="display: inline_block"><br>
+  <img align="center" alt="Luiz-diagrama" height="1800" width="900" src="https://github.com/luizborges17/bertoti/blob/main/Engenharia%20de%20Software/Atividade1/image/teste/Classe_Pessoa.jpg">
+</div>

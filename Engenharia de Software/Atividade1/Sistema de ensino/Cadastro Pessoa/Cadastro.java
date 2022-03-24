@@ -2,8 +2,15 @@ import java.util.Scanner;
 
 public class Cadastro {
 
-	public static void main(String[] args) {			
-	
+	public static void main(String[] args) {	
+		
+
+		
+while (true) {
+	Scanner in = new Scanner(System.in);
+	System.out.println("Para cadastrar pessoa digite 1, para sair digite 2: ");
+	Integer lup = in.nextInt();
+	if(lup==1) {
 		PlataformaEnsino fatec = new PlataformaEnsino();
 		
 		Scanner sc = new Scanner (System.in);
@@ -22,10 +29,18 @@ public class Cadastro {
 		fatec.cadastrarPessoa(pessoa);
 		
 		if (fatec.getPessoas().get(0).getNome() == nome) {
-			System.out.println("deu certo");
+			System.out.println("\nCadastrado com sucesso");
 		}
 		else {
-			System.out.println("não deu certo");
+			System.out.println("\nNão cadastrado");
 		}
+}
+	else if (lup==2){
+		System.out.println("\nSistema fechado com sucesso!");
+		break;
+			
 		}
-	}
+
+}	
+}
+}

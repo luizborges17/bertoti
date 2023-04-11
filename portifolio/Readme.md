@@ -76,3 +76,14 @@ Desenvolvimento focado na stack de back-end, construção e desenvolvimentos de 
 <p>•Utilizando se através de requições HTTP, era recebido os dados que seriam editados do usuario e também quem realizou a edição, utilizando dos métodos do JPA e o Hibernate para realizar a pesquisa de qual usuario realizou a edição e qual usuario seria editado, durante o processo foi realizado a implementação do pacote BCryptPasswordEncoder para poder codificar a senha do usuario atraves da função "encode". Esta função cria um Hash que produz uma saída de 192 bits a qual dificulta a realização de ataques do tipo "Brute Force". Com isso as alterações são salvas no banco de dados e é retornado um objeto do tipo ModelAndView com o nome do template que será carregado e os dados que foram setados previamente no método.
     
 </details>
+
+
+<details>
+<summary>Mapeamento de tabelas</summary>
+        <img src="https://github.com/luizborges17/bertoti/blob/main/portifolio/images/TableMap.jpeg?raw=true" height="850" width="600"/>    
+    
+    
+    
+<p>• Utilizando se de notações do "javax-persistence" como o @Entity para definir que a classe é uma entidade, @Table com o parâmetro "name" para poder referenciar a qual tabela é correspondente a esta entidade, @Id para associar aquele campo a uma chave primária 
+    
+</details>

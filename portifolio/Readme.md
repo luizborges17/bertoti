@@ -84,6 +84,36 @@ Desenvolvimento focado na stack de back-end, construção e desenvolvimentos de 
     
     
     
-<p>• Utilizando se de notações do "javax-persistence" como o @Entity para definir que a classe é uma entidade, @Table com o parâmetro "name" para poder referenciar a qual tabela é correspondente a esta entidade, @Id para associar aquele campo a uma chave primária 
+<p>• Utilizando se de anotações do "javax-persistence" como o @Entity para definir que a classe é uma entidade, @Table com o parâmetro "name" para poder referenciar a qual tabela é correspondente a esta entidade, @Id para associar aquele campo a uma chave primária. As anotações @Column e @JoinColumn representam colunas de uma tabela, ambas com parâmetro "name" que indentificam o nome da coluna, porém a anotação @JoinColumn representa colunas com chaves estrangeiras juntamente com o parâmetro "referencedColumName" e a anotação @ManyToOne, a coluna que ela é referenciada em sua tabela a qual é referenciada.
     
 </details>
+
+<details>
+<summary>Documentação do Código</summary>
+<img src="https://github.com/luizborges17/bertoti/blob/main/portifolio/images/SwaggerConfiguration.jpeg?raw=true"/>    
+<p>• Para realizar a documentação do código back-end foi utilizado o Swagger, que para habilitarmos foi realizado uma classe de configuração para ser possível a identificação de todos os endpoints.
+    
+<br>
+<br>
+<br>
+<img src="https://github.com/luizborges17/bertoti/blob/main/portifolio/images/endpoint-detalhado.jpeg?raw=true"/>    
+<p>• Com o Swagger habilitado, ao acessar a url "localhost:8080/swagger.io.html#" ele listará todos os métodos que a aplicação possuí.
+    
+                
+                
+<br>
+<br>
+<br>               
+<img src="https://github.com/luizborges17/bertoti/blob/main/portifolio/images/SwaggerConfiguration.jpeg?raw=true"/>    
+<p>• Ao acessar um dos endpoints, é possível ver os metódos Http disponíveis.
+    
+                    
+<br>
+<br>
+<br>                                   
+<img src="https://github.com/luizborges17/bertoti/blob/main/portifolio/images/SwaggerConfiguration.jpeg?raw=true"/>    
+<p>• Ao selecionar o método Http aparecerá o edpoint escolhido com sua rota, seus parâmetros e com exemplos de request e responses.
+    
+</details>
+
+### Contribuições Pessoais

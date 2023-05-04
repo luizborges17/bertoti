@@ -64,7 +64,6 @@ A Iacit é uma empresa de consultoria meteorológica, e hoje, um dos seus servi�
 
 
 ### Contribuições Pessoais
-
 Desenvolvimento focado na stack de back-end, construção e desenvolvimentos de metodos utilizando Java com o framework Spring e seu ecossistema. Solucionei durante o projeto alguns desafios:
 
 <details>
@@ -80,6 +79,13 @@ Desenvolvimento focado na stack de back-end, construção e desenvolvimentos de 
 
 <details>
 <summary>Mapeamento de tabelas</summary>
+<br>
+<br>
+<br>
+        Foi realizado o mapeamento de tabelas pa
+<br>
+<br>
+<br>
         <img src="https://github.com/luizborges17/bertoti/blob/main/portifolio/images/TableMap.jpeg?raw=true" height="850" width="600"/>    
     
     
@@ -90,6 +96,13 @@ Desenvolvimento focado na stack de back-end, construção e desenvolvimentos de 
 
 <details>
 <summary>Documentação do Código</summary>
+<br>
+<br>
+<br>
+        Realizei a documentação utilizando o Swagger que auxiliou no desenvolvimento do sistema, podendo identificar os endpoints, métodos e parâmetros existes na aplicação.
+<br>
+<br>
+<br>
 <img src="https://github.com/luizborges17/bertoti/blob/main/portifolio/images/SwaggerConfiguration.jpeg?raw=true"/>    
 <p>• Para realizar a documentação do código back-end foi utilizado o Swagger, que para habilitarmos foi realizado uma classe de configuração para ser possível a identificação de todos os endpoints.
     
@@ -116,4 +129,43 @@ Desenvolvimento focado na stack de back-end, construção e desenvolvimentos de 
     
 </details>
 
-### Contribuições Pessoais
+### Aprendizados Efetivos 
+
+<details>
+<summary>Spring</summary>
+    
+<p>• Java 8
+
+<p>• Mapear tabelas
+    
+<p>• Realizar CRUD com o ecossistema Spring
+    
+<p>• Desenvolver códigos limpos em Java
+    
+</details>
+
+<details>
+<summary>Rest</summary>
+    
+<p>• Realizar requisições
+
+<p>• Aprendizado a cerca da anatomia da arquitetura Rest
+    
+<p>• Tipos de status http
+        
+    
+</details>
+
+<details>
+<summary>Documentção de Source Code</summary>
+    
+<p>• Documentar endpoints
+
+<p>• Descrever métodos
+    
+<p>• Disponibilizar exemplos de "request's" e "responses"
+        
+    
+</details>
+
+

@@ -68,6 +68,13 @@ Desenvolvimento focado na stack de back-end, construção e desenvolvimentos de 
 
 <details>
 <summary>Edição de dados do usuário</summary>
+<br>
+<br>
+<br>
+        O método de editor usuário possibilitou a alteração de senha, permissão e 'status' do usuário.
+<br>
+<br>
+<br>
         <img src="https://github.com/luizborges17/portfolio/blob/main/WhatsApp%20Image%202023-03-22%20at%207.26.19%20PM%20(1).jpeg?raw=true" height="850" width="850"/>    
     
     
@@ -82,7 +89,7 @@ Desenvolvimento focado na stack de back-end, construção e desenvolvimentos de 
 <br>
 <br>
 <br>
-        Foi realizado o mapeamento de tabelas pa
+        Foi realizado o mapeamento de tabelas para que possamos utilizando o JPA em seus repositórios, com isso é possível manipular e persistir os dados.
 <br>
 <br>
 <br>

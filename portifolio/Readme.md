@@ -6,7 +6,7 @@ Olá, seja bem vindo ao meu portifólio universitário. Meu nome é Luiz Felipe 
 
 Tenho 19 anos atualmente e atuo como Desenvolvedor Jùnior
 
-<img src="https://scontent.fcgh1-1.fna.fbcdn.net/v/t39.30808-6/290179573_5260766934036920_8588898227045354601_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeGz40ymoNWYs_7646ZwPrhGeqmuouOALd16qa6i44At3e1tyzSIo9GmICd6fCpkqwgCp0uELRRhIPhw-Bs4aTkW&_nc_ohc=2CYUEIkAvygAX806Zc8&_nc_zt=23&_nc_ht=scontent.fcgh1-1.fna&oh=00_AfAPu2iBavDqG6YaOfEKPoFLGD30uLsK83Avj73xUX225Q&oe=6403EAF4" height="300" width="300"/>
+<img src="https://github.com/luizborges17/bertoti/blob/main/portifolio/images/eu_foto.jpeg" height="300" width="250"/>
 
 
 # Projeto 3: 2º semestre de 2022

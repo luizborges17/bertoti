@@ -176,3 +176,163 @@ Desenvolvimento focado na stack de back-end, construção e desenvolvimentos de 
 </details>
 
 
+# Projeto 4: 1º semestre de 2023
+
+
+EMBRAER
+
+<img src="https://github.com/luizborges17/bertoti/blob/main/portifolio/images/embraer-logo-0.png" height="300"/>
+
+##### *Figura 06. Embraer (Fonte: https://www.ficaon.com/)*
+
+A Embraer é uma empresa brasileira de aviação com uma história de destaque no cenário internacional. Fundada em 1969, tornou-se uma das maiores fabricantes de aeronaves comerciais e militares do mundo. Sua relevância se reflete na liderança global em jatos de até 130 assentos, contribuindo significativamente para a economia brasileira e fortalecendo a indústria aeroespacial do país.
+
+### Visão do Projeto
+Desenvolvemos um sistema de Controle de Configuração de Aeronaves (ACC) para a Embraer, líder global na fabricação de aeronaves militares, comerciais, executivas e agrícolas. Como terceira maior empresa de aviação executiva do mundo, a Embraer está desafiando a dominância europeia e americana no setor. O ACC permite à Embraer gerenciar eficientemente a configuração de suas aeronaves, garantindo qualidade e eficácia na produção, além de possibilitar que os pilotos verifiquem a configuração e limitações das aeronaves que operam.
+
+
+### Tecnologias utilizadas
+<details>
+<summary>Spring</summary>
+
+<p>• Utilizando se do ecossistema Spring, foi implementado no projeto: Spring-boot, Spring-security e Spring-data, principalmente foi utilizado para realizar o controle e a injeção de dependências. Pela parte do Spring-boot foi possível alimentar o dashboard e cards que apresentavam os dados, através de requisições HTTP utilizando a arquitetura Rest. O Spring-security foi implementado para utilizar se de sua criptografia do pacote "cripto" em dados sensíveis e o Spring-data utilizamos para poder realizar operações com o banco de dados.
+    
+</details>
+
+<details>
+<summary>Hibernate</summary>
+
+<p>• O Hibernate é um framework de mapeamento objeto-relacional (ORM) em Java que permite a persistência de objetos Java em bancos de dados relacionais. Ele faz isso mapeando classes Java para tabelas de banco de dados e gerenciando automaticamente as operações de CRUD (Create, Read, Update, Delete). O Hibernate usa mapeamentos XML ou anotações para definir a correspondência entre as classes Java e as tabelas do banco de dados. Isso simplifica o desenvolvimento, evita a escrita manual de SQL e oferece um alto nível de abstração para interagir com o banco de dados.
+    
+</details>
+
+
+
+<details>
+<summary>Maven</summary>
+
+<p>• O Maven é uma ferramenta de automação de construção (build) amplamente usada em desenvolvimento de software Java. Ele simplifica a compilação, teste, empacotamento e gerenciamento de dependências de projetos Java. O Maven é essencial para manter projetos organizados, padronizar builds e facilitar a colaboração entre desenvolvedores, garantindo que as bibliotecas e recursos necessários sejam gerenciados de forma eficiente.
+    
+</details>
+
+<details>
+<summary>Swagger-OpenAPI</summary>
+
+<p>• O Swagger, agora conhecido como OpenAPI, é uma ferramenta que permite a documentação e a exposição de APIs de forma padronizada. Ele define um formato de especificação que descreve detalhadamente as operações, parâmetros e respostas de uma API, facilitando sua compreensão e uso. O Swagger/OpenAPI é fundamental para promover a interoperabilidade e facilitar a integração de serviços, além de melhorar a comunicação entre equipes de desenvolvimento e documentação precisa, economizando tempo e esforço na criação e manutenção de APIs.
+    
+</details>
+
+
+### Contribuições Pessoais
+Desenvolvimento focado na stack de back-end, construção e desenvolvimentos de metodos utilizando Java com o framework Spring e seu ecossistema. Solucionei durante o projeto alguns desafios:
+
+<details>
+<summary>Edição de dados do usuário</summary>
+<br>
+<br>
+<br>
+        O método de editor usuário possibilitou a alteração de senha, permissão e 'status' do usuário.
+<br>
+<br>
+<br>
+        <img src="https://github.com/luizborges17/portfolio/blob/main/WhatsApp%20Image%202023-03-22%20at%207.26.19%20PM%20(1).jpeg?raw=true" height="850" width="850"/>    
+    
+    
+    
+<p>•Utilizando se através de requições HTTP, era recebido os dados que seriam editados do usuario e também quem realizou a edição, utilizando dos métodos do JPA e o Hibernate para realizar a pesquisa de qual usuario realizou a edição e qual usuario seria editado, durante o processo foi realizado a implementação do pacote BCryptPasswordEncoder para poder codificar a senha do usuario atraves da função "encode". Esta função cria um Hash que produz uma saída de 192 bits a qual dificulta a realização de ataques do tipo "Brute Force". Com isso as alterações são salvas no banco de dados e é retornado um objeto do tipo ModelAndView com o nome do template que será carregado e os dados que foram setados previamente no método.
+    
+</details>
+
+
+<details>
+<summary>Mapeamento de tabelas</summary>
+<br>
+<br>
+<br>
+        Foi realizado o mapeamento de tabelas para que possamos utilizando o JPA em seus repositórios, com isso é possível manipular e persistir os dados.
+<br>
+<br>
+<br>
+        <img src="https://github.com/luizborges17/bertoti/blob/main/portifolio/images/TableMap.jpeg?raw=true" height="850" width="600"/>    
+    
+    
+    
+<p>• Utilizando se de anotações do "javax-persistence" como o @Entity para definir que a classe é uma entidade, @Table com o parâmetro "name" para poder referenciar a qual tabela é correspondente a esta entidade, @Id para associar aquele campo a uma chave primária. As anotações @Column e @JoinColumn representam colunas de uma tabela, ambas com parâmetro "name" que indentificam o nome da coluna, porém a anotação @JoinColumn representa colunas com chaves estrangeiras juntamente com o parâmetro "referencedColumName" e a anotação @ManyToOne, a coluna que ela é referenciada em sua tabela a qual é referenciada.
+    
+</details>
+
+<details>
+<summary>Documentação do Código</summary>
+<br>
+<br>
+<br>
+        Realizei a documentação utilizando o Swagger que auxiliou no desenvolvimento do sistema, podendo identificar os endpoints, métodos e parâmetros existes na aplicação.
+<br>
+<br>
+<br>
+<img src="https://github.com/luizborges17/bertoti/blob/main/portifolio/images/SwaggerConfiguration.jpeg?raw=true"/>    
+<p>• Para realizar a documentação do código back-end foi utilizado o Swagger, que para habilitarmos foi realizado uma classe de configuração para ser possível a identificação de todos os endpoints.
+    
+<br>
+<br>
+<br>
+<img src="https://github.com/luizborges17/bertoti/blob/main/portifolio/images/endpoint-detalhado.jpeg?raw=true"/>    
+<p>• Com o Swagger habilitado, ao acessar a url "localhost:8080/swagger.io.html#" ele listará todos os métodos que a aplicação possuí.
+    
+                
+                
+<br>
+<br>
+<br>               
+<img src="https://github.com/luizborges17/bertoti/blob/main/portifolio/images/SwaggerConfiguration.jpeg?raw=true"/>    
+<p>• Ao acessar um dos endpoints, é possível ver os metódos Http disponíveis.
+    
+                    
+<br>
+<br>
+<br>                                   
+<img src="https://github.com/luizborges17/bertoti/blob/main/portifolio/images/SwaggerConfiguration.jpeg?raw=true"/>    
+<p>• Ao selecionar o método Http aparecerá o edpoint escolhido com sua rota, seus parâmetros e com exemplos de request e responses.
+    
+</details>
+
+### Aprendizados Efetivos 
+
+<details>
+<summary>Spring</summary>
+    
+<p>• Java 8
+
+<p>• Mapear tabelas
+    
+<p>• Realizar CRUD com o ecossistema Spring
+    
+<p>• Desenvolver códigos limpos em Java
+    
+</details>
+
+<details>
+<summary>Rest</summary>
+    
+<p>• Realizar requisições
+
+<p>• Aprendizado a cerca da anatomia da arquitetura Rest
+    
+<p>• Tipos de status http
+        
+    
+</details>
+
+<details>
+<summary>Documentção de Source Code</summary>
+    
+<p>• Documentar endpoints
+
+<p>• Descrever métodos
+    
+<p>• Disponibilizar exemplos de "request's" e "responses"
+        
+    
+</details>
+
+

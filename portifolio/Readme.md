@@ -6,7 +6,7 @@ Olá, seja bem vindo ao meu portifólio universitário. Meu nome é Luiz Felipe 
 
 Tenho 19 anos atualmente e atuo como Desenvolvedor Jùnior
 
-<img src="https://github.com/luizborges17/bertoti/blob/main/portifolio/images/eu_foto.jpeg" height="300" width="200"/>
+<img src="https://github.com/luizborges17/bertoti/blob/main/portifolio/images/eu.jpeg" height="300" width="230"/>
 
 
 # Projeto 3: 2º semestre de 2022

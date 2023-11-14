@@ -277,75 +277,47 @@ uma interface do Spring Security para autenticar usuários. O método autenticar
 </details>
 
 <details>
-<summary>Documentação do Código</summary>
-<br>
-<br>
-<br>
-        Realizei a documentação utilizando o Swagger que auxiliou no desenvolvimento do sistema, podendo identificar os endpoints, métodos e parâmetros existes na aplicação.
-<br>
-<br>
-<br>
-<img src="https://github.com/luizborges17/bertoti/blob/main/portifolio/images/SwaggerConfiguration.jpeg?raw=true"/>    
-<p>• Para realizar a documentação do código back-end foi utilizado o Swagger, que para habilitarmos foi realizado uma classe de configuração para ser possível a identificação de todos os endpoints.
+<summary>Método que lista todos os chassis</summary>
     
 <br>
 <br>
 <br>
-<img src="https://github.com/luizborges17/bertoti/blob/main/portifolio/images/endpoint-detalhado.jpeg?raw=true"/>    
-<p>• Com o Swagger habilitado, ao acessar a url "localhost:8080/swagger.io.html#" ele listará todos os métodos que a aplicação possuí.
-    
-                
-                
-<br>
-<br>
-<br>               
-<img src="https://github.com/luizborges17/bertoti/blob/main/portifolio/images/SwaggerConfiguration.jpeg?raw=true"/>    
-<p>• Ao acessar um dos endpoints, é possível ver os metódos Http disponíveis.
-    
-                    
-<br>
-<br>
-<br>                                   
-<img src="https://github.com/luizborges17/bertoti/blob/main/portifolio/images/SwaggerConfiguration.jpeg?raw=true"/>    
-<p>• Ao selecionar o método Http aparecerá o edpoint escolhido com sua rota, seus parâmetros e com exemplos de request e responses.
+<img src="https://github.com/luizborges17/bertoti/blob/main/portifolio/images/metodo_lista_chassis.png?raw=true"/>    
+<p>• A classe ListChassisService é um serviço em uma aplicação Spring que lida com a listagem de chassis. No método execute(), ele primeiro obtém a lista de todos os chassis do banco de dados. Se a lista estiver vazia, ele lança uma exceção indicando que o chassi não existe. Caso contrário, cria uma nova lista de objetos ListChassisDto e, para cada chassi na lista original, cria um objeto DTO, configura o ID do chassi e adiciona à lista resultante. Essa lista de DTOs é então retornada como resultado do serviço. Em resumo, o serviço busca e lista chassis, criando objetos DTO para representar as informações dos chassis encontrados. Se nenhum chassi for encontrado, ele sinaliza que o chassi não existe através de uma exceção.
     
 </details>
 
 ### Aprendizados Efetivos 
 
 <details>
-<summary>Spring</summary>
+<summary>Spring Security</summary>
     
-<p>• Java 8
+<p>• Java 11
 
-<p>• Mapear tabelas
+<p>• Configuração do Security
     
-<p>• Realizar CRUD com o ecossistema Spring
-    
-<p>• Desenvolver códigos limpos em Java
+<p>• Implementação do Security
     
 </details>
 
 <details>
-<summary>Rest</summary>
+<summary>Tratamento de excessões com Spring</summary>
     
-<p>• Realizar requisições
+<p>• Java 11
 
-<p>• Aprendizado a cerca da anatomia da arquitetura Rest
+<p>• Spring Boot
     
-<p>• Tipos de status http
+<p>• Arquitetura Rest
         
     
 </details>
 
 <details>
-<summary>Documentção de Source Code</summary>
+<summary>Java</summary>
     
-<p>• Documentar endpoints
-
-<p>• Descrever métodos
+<p>• Trabalhar com listas
     
-<p>• Disponibilizar exemplos de "request's" e "responses"
+<p>• Realizar operações manipulando dados
         
     
 </details>

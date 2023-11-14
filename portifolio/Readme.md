@@ -6,7 +6,7 @@ Olá, seja bem vindo ao meu portifólio universitário. Meu nome é Luiz Felipe 
 
 Tenho 19 anos atualmente e atuo como Desenvolvedor Jùnior
 
-<img src="https://github.com/luizborges17/bertoti/blob/main/portifolio/images/eu_foto.jpeg" height="300" width="250"/>
+<img src="https://github.com/luizborges17/bertoti/blob/main/portifolio/images/eu_foto.jpeg" height="300" width="200"/>
 
 
 # Projeto 3: 2º semestre de 2022
@@ -227,19 +227,33 @@ Desenvolvemos um sistema de Controle de Configuração de Aeronaves (ACC) para a
 Desenvolvimento focado na stack de back-end, construção e desenvolvimentos de metodos utilizando Java com o framework Spring e seu ecossistema. Solucionei durante o projeto alguns desafios:
 
 <details>
-<summary>Edição de dados do usuário</summary>
+<summary>Tratamento de excessões</summary>
 <br>
 <br>
 <br>
-        O método de editor usuário possibilitou a alteração de senha, permissão e 'status' do usuário.
-<br>
-<br>
-<br>
-        <img src="https://github.com/luizborges17/portfolio/blob/main/WhatsApp%20Image%202023-03-22%20at%207.26.19%20PM%20(1).jpeg?raw=true" height="850" width="850"/>    
+        <img src="https://github.com/luizborges17/bertoti/blob/main/portifolio/images/classe_configuracao_erros.png?raw=true" height="450" width="600"/>    
     
     
     
-<p>•Utilizando se através de requições HTTP, era recebido os dados que seriam editados do usuario e também quem realizou a edição, utilizando dos métodos do JPA e o Hibernate para realizar a pesquisa de qual usuario realizou a edição e qual usuario seria editado, durante o processo foi realizado a implementação do pacote BCryptPasswordEncoder para poder codificar a senha do usuario atraves da função "encode". Esta função cria um Hash que produz uma saída de 192 bits a qual dificulta a realização de ataques do tipo "Brute Force". Com isso as alterações são salvas no banco de dados e é retornado um objeto do tipo ModelAndView com o nome do template que será carregado e os dados que foram setados previamente no método.
+<p>•O método messageSource() neste trecho de código Java configura um bean MessageSource para tratamento de mensagens em uma aplicação Spring. Utilizando a implementação ReloadableResourceBundleMessageSource, o método define o basename como "classpath:messages", indicando que as mensagens serão carregadas a partir de um arquivo chamado "messages" no classpath da aplicação. Além disso, a codificação padrão é configurada como UTF-8 para garantir o suporte adequado a caracteres especiais. O bean MessageSource é crucial para a resolução de mensagens, especialmente em contextos de internacionalização e localização, proporcionando a flexibilidade necessária para adaptar as mensagens de exceção de acordo com diferentes idiomas e culturas. O retorno do método é a instância configurada de ReloadableResourceBundleMessageSource, que será gerenciada pelo contêiner Spring.
+
+<br>
+<br>
+<br>
+        <img src="https://github.com/luizborges17/bertoti/blob/main/portifolio/images/dto_error_internal.png?raw=true" height="350" width="400"/>    
+    
+    
+    
+<p>•A classe possui um campo chamado message, e é anotada com @Getter para gerar automaticamente os métodos de acesso (getters) para esse campo. O construtor da classe recebe uma mensagem como parâmetro e a atribui ao campo message. Essencialmente, essa classe representa um objeto de transferência de dados (DTO) para encapsular mensagens de erro relacionadas a problemas no servidor interno.
+
+<br>
+<br>
+<br>
+        <img src="https://github.com/luizborges17/bertoti/blob/main/portifolio/images/implementacao_erros.png?raw=true" height="450" width="600"/>    
+    
+    
+    
+<p>•O método handle neste trecho de código é anotado com @ExceptionHandler e é designado para lidar com várias exceções, incluindo RuntimeException, StackOverflowError, IllegalArgumentException, ClassCastException, IOException, e InvalidFormatException. Quando uma exceção desse tipo ocorre em qualquer controlador na aplicação, este método é invocado. Ao receber a exceção como parâmetro, o método utiliza o MessageSource para obter uma mensagem personalizada associada à chave "InternalError" no contexto de localização atual. Essa mensagem é, então, encapsulada em um objeto ErrorInternalServerDTO. Finalmente, esse objeto é retornado como resposta, fornecendo detalhes personalizados sobre o erro interno do servidor. Essa abordagem centralizada permite o tratamento consistente de exceções em toda a aplicação, tornando mais fácil fornecer mensagens de erro personalizadas e adaptadas à localização do usuário. O código também define o código de status HTTP como 500 (Internal Server Error), indicando que ocorreu uma falha não esperada no servidor.
     
 </details>
 
@@ -257,7 +271,8 @@ Desenvolvimento focado na stack de back-end, construção e desenvolvimentos de 
     
     
     
-<p>• Utilizando se de anotações do "javax-persistence" como o @Entity para definir que a classe é uma entidade, @Table com o parâmetro "name" para poder referenciar a qual tabela é correspondente a esta entidade, @Id para associar aquele campo a uma chave primária. As anotações @Column e @JoinColumn representam colunas de uma tabela, ambas com parâmetro "name" que indentificam o nome da coluna, porém a anotação @JoinColumn representa colunas com chaves estrangeiras juntamente com o parâmetro "referencedColumName" e a anotação @ManyToOne, a coluna que ela é referenciada em sua tabela a qual é referenciada.
+<p>• Esse trecho de código em Java é um controlador (controller) que faz parte de uma aplicação utilizando o framework Spring. Vamos analisar cada parte para entender sua funcionalidade. A anotação @RestController identifica a classe como um controlador REST, responsável por lidar com requisições HTTP e gerar respostas no formato apropriado para APIs RESTful. A anotação @CrossOrigin indica que as requisições para este controlador podem originar-se de diferentes domínios. Isso é útil quando a API pode ser acessada por clientes hospedados em locais variados na web. O @RequestMapping(value = "/login") define o mapeamento de URL para este controlador. Neste caso, ele irá processar requisições destinadas à rota "/login". Dentro da classe LoginController, há duas injeções de dependência usando @Autowired. A primeira injeta um objeto do tipo UserRepository, que provavelmente é responsável por interações com o banco de dados relacionadas aos usuários. A segunda injeta um objeto do tipo AuthenticationManager, 
+uma interface do Spring Security para autenticar usuários. O método autenticar é mapeado para requisições HTTP do tipo POST para a rota "/login". Ele recebe um objeto do tipo Login no corpo da requisição, que, presumivelmente, contém informações de login, como nome de usuário e senha. Dentro desse método, uma instância de UsernamePasswordAuthenticationToken é criada com as credenciais fornecidas no objeto Login. O AuthenticationManager é então utilizado para autenticar essas credenciais, possivelmente envolvendo processos de validação e verificação de senha. Após a autenticação bem-sucedida, a senha é removida do objeto Login antes de retornar a resposta. Em seguida, um token JWT é gerado usando a classe JwtUtils e é atribuído ao objeto Login. Adicionalmente, a autoridade do usuário autenticado é extraída e também adicionada ao objeto Login. Finalmente, o objeto Login modificado é retornado como resposta à requisição POST, fornecendo ao cliente informações como o token JWT gerado e possíveis detalhes sobre a autorização do usuário. Em resumo, este código parece implementar a lógica de autenticação de usuários, utilizando tokens JWT para gerenciar sessões. É importante garantir que outras partes da aplicação, como configurações de segurança e interações com o banco de dados, estejam devidamente configuradas para garantir o correto funcionamento dessa funcionalidade.
     
 </details>
 

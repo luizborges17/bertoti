@@ -4,7 +4,7 @@
 
 Olá, seja bem vindo ao meu portifólio universitário. Meu nome é Luiz Felipe e estou cursando Banco de Dados na Fatec Professor Jessen Vidal
 
-Tenho 19 anos atualmente e atuo como Desenvolvedor Jùnior
+Tenho 20 anos e estou atuand no momento, como Desenvolvedor Backend para a IBM no projeto do Itaú, concentro-me em Java (Spring Boot) para micro serviços que também contém Kafka, Redis. Já atuei com integradores financeiros usando Nest.Js e AWS (EC2 e S3). Em projetos anteriores, utilizei Java (Spring Boot), JavaScript (Node, Nest), Python (Django). Essas experiências destacam minha proficiência em tecnologias como Java, Node, Python, e a integração com serviços AWS, evidenciando minha versatilidade em ambientes de desenvolvimento variados.
 
 <img src="https://github.com/luizborges17/bertoti/blob/main/portifolio/images/eu.jpeg" height="300" width="230"/>
 

@@ -9,6 +9,132 @@ Tenho 20 anos e estou atuand no momento, como Desenvolvedor Backend para a IBM n
 <img src="https://github.com/luizborges17/bertoti/blob/main/portifolio/images/eu.jpeg" height="300" width="230"/>
 
 
+# Projeto 1: 2º semestre de 2021
+
+
+SPanel
+
+<img src="https://github.com/luizborges17/bertoti/blob/main/portifolio/images/spanel.png" height="300"/>
+
+
+### Visão do Projeto
+Com intuito de aprimorar e agilizar o acesso aos números da COVID-19 disponibilizados pelo Estado de São Paulo, foi desenvolvido a SPanel, uma plataforma virtual que centraliza os principais dados da pandemia em uma interface fácil de navegar e entender. O principal objetivo do SPanel era reunir e apresentar as informações da pandemia do COVID-19 no estado de São Paulo, de maneira simples e intuítiva, permitindo ao usuário diferentes tipos de visualizações.
+
+### Tecnologias utilizadas
+<details>
+<summary>Python</summary>
+
+<p>• Python foi escolhido para o projeto devido à sua eficiência e flexibilidade. Utilizamos as bibliotecas Matplotlib para gerar gráficos de forma clara. As operações de manipulação de dados foram realizadas com Pandas e NumPy, garantindo análises detalhadas. A normalização dos dados foi alcançada de maneira eficaz usando as capacidades do NumPy. A linguagem facilitou o desenvolvimento eficiente e a implementação de práticas robustas. O projeto beneficiou-se da versatilidade do Python em visualização, tratamento e normalização de dados.
+    
+</details>
+
+<details>
+<summary>Pandas</summary>
+
+<p>• No projeto, o Pandas foi essencial para manipular, tratar e normalizar dados, proporcionando eficiência na leitura e manipulação de conjuntos de dados. Além de facilitar uma análise detalhada, a biblioteca foi empregada na geração de gráficos visuais representativos. A normalização dos dados foi realizada de maneira eficaz com as funções integradas do Pandas, garantindo uniformidade nos resultados. Sua contribuição simplificou a complexidade associada à manipulação de dados, resultando em análises mais precisas e confiáveis..
+    
+</details>
+
+
+
+<details>
+<summary>Plotly</summary>
+
+<p>• O Plotly foi escolhido no projeto para visualização de dados, destacando-se por sua capacidade de criar gráficos interativos e informativos. Embora não seja convencional para normalização, sua aplicação dinâmica na análise proporcionou uma compreensão mais profunda das distribuições. O Plotly contribuiu para o tratamento e exploração dinâmica dos dados, complementando técnicas de normalização e facilitando a identificação de padrões. Sua integração enriqueceu a análise, oferecendo uma perspectiva visual e interativa única..
+    
+</details>
+
+### Contribuições Pessoais
+Desenvolvimento focado na stack de back-end, construção e desenvolvimentos de metodos utilizando Python, Pandas, NumPy e Plotly. Solucionei durante o projeto alguns desafios:
+
+<details>
+<summary>Normalização dos dados</summary>
+<br>
+<br>
+<br>
+        A normalização dos dados possibilitou a plotagem e manipulação dos dados de forma fácil
+<br>
+<br>
+<br>
+        <img src="https://github.com/luizborges17/bertoti/blob/main/portifolio/images/normalizacao_csv.png?raw=true" height="450" width="850"/>    
+    
+    
+    
+<p>• O código utiliza a biblioteca Pandas para ler um arquivo CSV ('docs/df_state.csv') em um DataFrame chamado 'df_state'. Em seguida, algumas colunas específicas são removidas do DataFrame usando o método 'drop'. As colunas removidas incluem informações como datas, casos e óbitos per capita, entre outras. Posteriormente, os nomes dos municípios no DataFrame são convertidos para maiúsculas, e a coluna 'datahora' é convertida para o formato de data utilizando o método 'pd.to_datetime'. O resultado é um DataFrame preparado para análise, com algumas colunas removidas e dados formatados adequadamente.
+    
+</details>
+
+
+<details>
+<summary>Tratamento dos dados</summary>
+<br>
+<br>
+<br>
+       Foi realizado o tratamento dos dados para que seja possível consumir os dados de uma forma fácil
+<br>
+<br>
+<br>
+        <img src="https://github.com/luizborges17/bertoti/blob/main/portifolio/images/tratamento_dados_estado.png?raw=true" height="450" width="600"/>    
+    
+    
+    
+<p>• O código cria um novo DataFrame chamado 'df_estadotratado' a partir do DataFrame original 'df_state', removendo a coluna 'nome_munic'. Em seguida, uma nova coluna chamada 'estado' é adicionada com o valor 'SÃO PAULO' para todas as entradas. O DataFrame é ordenado por 'datahora', mas essa operação não é atribuída de volta ao DataFrame. As colunas 'casos', 'casos_novos', 'obitos', 'obitos_novos' e 'pop' são agrupadas e transformadas para representar as somas cumulativas por data. Por fim, são removidas as duplicatas com base na coluna 'datahora', mantendo apenas a primeira ocorrência para cada data no DataFrame resultante 'df_estadotratado'.
+    
+</details>
+
+<details>
+<summary>Construção de gráficos</summary>
+<br>
+<br>
+<br>
+        Realizei os gráficos para que exista diferentes tipos de visualizações dos dados.
+<br>
+<br>
+<br>
+<img src="https://github.com/luizborges17/bertoti/blob/main/portifolio/images/grafico_pizza.png?raw=true"/>  
+    
+<p>• Para realizar a construção dos gráficos utilizei a biblioteca Plotly gerando uma figura e definindo os seus valores que são respectivos as colunas definidas do dataframe.        
+    
+    
+</details>
+
+### Aprendizados Efetivos 
+
+<details>
+<summary>Python</summary>
+
+<p>• Desenvolvimento de software
+    
+<p>• Manipulação de dados
+    
+<p>• Realizar CRUD com o ecossistema Spring
+    
+</details>
+
+<details>
+<summary>Pandas</summary>
+    
+<p>• Tratamento de csv's
+
+<p>• Tratamento de dados
+    
+<p>• Manipulação de csv's
+        
+    
+</details>
+
+<details>
+<summary>Plotly</summary>
+    
+<p>• Construção de gráficos
+
+<p>• Plotagem de gráficos
+    
+    
+</details>
+
+
+
 # Projeto 3: 2º semestre de 2022
 
 

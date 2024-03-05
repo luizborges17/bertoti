@@ -133,7 +133,131 @@ Desenvolvimento focado na stack de back-end, construção e desenvolvimentos de 
     
 </details>
 
+# Projeto 2: 1º semestre de 2022
 
+
+Dom Rock
+
+<img src="https://github.com/luizborges17/bertoti/blob/main/portifolio/images/dom_rock_logo.jfif" height="300"/>
+
+A Dom Rock, empresa fundada em 2013, desenvolve tecnologia de inteligência de dados automatizada para melhorar o engajamento de clientes e a eficiência operacional. Seus produtos, como Vox, Sales&Distribution, Marketing&Planning e Pricing, são baseados em modelos matemáticos e algoritmos de aprendizado de máquina, permitindo cenários personalizados em diversas áreas como marketing, vendas, logística e finanças. A automação desde a ingestão até o processamento final dos dados reduz custos e aumenta a produtividade, enquanto os painéis, relatórios e integrações facilitam o acesso e a utilização das informações. A empresa busca oferecer soluções que agilizem a tomada de decisão e impulsionem os resultados dos negócios de seus clientes
+
+### Visão do Projeto
+A empresa busca uma solução que seja orientada a entrada de dados de parâmetros e variáveis de cada cliente para alocar recursos na plataforma Dom Rock, entrada de dados e estimativa de consumo de recursos (baseado em volume de dados de cliente, quantidade de usuários e outros) e gere relatórios e consultas, mas, principalmente, tenha a base de dados modelada adequadamente para futuras integrações com outros sistemas. 
+
+### Tecnologias utilizadas
+<details>
+<summary>Java</summary>
+
+<p>• Python foi escolhido para o projeto devido à sua eficiência e flexibilidade. Utilizamos as bibliotecas Matplotlib para gerar gráficos de forma clara. As operações de manipulação de dados foram realizadas com Pandas e NumPy, garantindo análises detalhadas. A normalização dos dados foi alcançada de maneira eficaz usando as capacidades do NumPy. A linguagem facilitou o desenvolvimento eficiente e a implementação de práticas robustas. O projeto beneficiou-se da versatilidade do Python em visualização, tratamento e normalização de dados.
+    
+</details>
+
+<details>
+<summary>Pandas</summary>
+
+<p>• No projeto, o Pandas foi essencial para manipular, tratar e normalizar dados, proporcionando eficiência na leitura e manipulação de conjuntos de dados. Além de facilitar uma análise detalhada, a biblioteca foi empregada na geração de gráficos visuais representativos. A normalização dos dados foi realizada de maneira eficaz com as funções integradas do Pandas, garantindo uniformidade nos resultados. Sua contribuição simplificou a complexidade associada à manipulação de dados, resultando em análises mais precisas e confiáveis..
+    
+</details>
+
+
+
+<details>
+<summary>Plotly</summary>
+
+<p>• O Plotly foi escolhido no projeto para visualização de dados, destacando-se por sua capacidade de criar gráficos interativos e informativos. Embora não seja convencional para normalização, sua aplicação dinâmica na análise proporcionou uma compreensão mais profunda das distribuições. O Plotly contribuiu para o tratamento e exploração dinâmica dos dados, complementando técnicas de normalização e facilitando a identificação de padrões. Sua integração enriqueceu a análise, oferecendo uma perspectiva visual e interativa única..
+    
+</details>
+
+### Contribuições Pessoais
+Desenvolvimento focado na stack de back-end, construção e desenvolvimentos de metodos utilizando Python, Pandas, NumPy e Plotly. Solucionei durante o projeto alguns desafios:
+
+<details>
+<summary>Java Connection</summary>
+<br>
+<br>
+<br>
+        A normalização dos dados possibilitou a plotagem e manipulação dos dados de forma fácil
+<br>
+<br>
+<br>
+        <img src="https://github.com/luizborges17/bertoti/blob/main/portifolio/images/ConexaoDAO.png" height="450" width="850"/>    
+    
+    
+    
+<p>• O código utiliza a biblioteca Pandas para ler um arquivo CSV ('docs/df_state.csv') em um DataFrame chamado 'df_state'. Em seguida, algumas colunas específicas são removidas do DataFrame usando o método 'drop'. As colunas removidas incluem informações como datas, casos e óbitos per capita, entre outras. Posteriormente, os nomes dos municípios no DataFrame são convertidos para maiúsculas, e a coluna 'datahora' é convertida para o formato de data utilizando o método 'pd.to_datetime'. O resultado é um DataFrame preparado para análise, com algumas colunas removidas e dados formatados adequadamente.
+    
+</details>
+
+
+<details>
+<summary>Operação com banco de dados</summary>
+<br>
+<br>
+<br>
+       Foi realizado o tratamento dos dados para que seja possível consumir os dados de uma forma fácil
+<br>
+<br>
+<br>
+        <img src="https://github.com/luizborges17/bertoti/blob/main/portifolio/images/CadastrarProdutoDAO.png" height="450" width="600"/>    
+    
+    
+    
+<p>• O código cria um novo DataFrame chamado 'df_estadotratado' a partir do DataFrame original 'df_state', removendo a coluna 'nome_munic'. Em seguida, uma nova coluna chamada 'estado' é adicionada com o valor 'SÃO PAULO' para todas as entradas. O DataFrame é ordenado por 'datahora', mas essa operação não é atribuída de volta ao DataFrame. As colunas 'casos', 'casos_novos', 'obitos', 'obitos_novos' e 'pop' são agrupadas e transformadas para representar as somas cumulativas por data. Por fim, são removidas as duplicatas com base na coluna 'datahora', mantendo apenas a primeira ocorrência para cada data no DataFrame resultante 'df_estadotratado'.
+    
+</details>
+
+<details>
+<summary>DTO</summary>
+<br>
+<br>
+<br>
+        Realizei os gráficos para que exista diferentes tipos de visualizações dos dados.
+<br>
+<br>
+<br>
+<img src="https://github.com/luizborges17/bertoti/blob/main/portifolio/images/AtributosDTO.png"/> 
+<img src="https://github.com/luizborges17/bertoti/blob/main/portifolio/images/MetodosDTO.png"/> 
+    
+<p>• Para realizar a construção dos gráficos utilizei a biblioteca Plotly gerando uma figura e definindo os seus valores que são respectivos as colunas definidas do dataframe.        
+    
+    
+</details>
+
+### Aprendizados Efetivos 
+
+<details>
+<summary>Python</summary>
+
+<p>• Desenvolvimento de software
+    
+<p>• Manipulação de dados
+    
+<p>• Realizar CRUD com o ecossistema Spring
+    
+</details>
+
+<details>
+<summary>Pandas</summary>
+    
+<p>• Tratamento de csv's
+
+<p>• Tratamento de dados
+    
+<p>• Manipulação de csv's
+        
+    
+</details>
+
+<details>
+<summary>Plotly</summary>
+    
+<p>• Construção de gráficos
+
+<p>• Plotagem de gráficos
+    
+    
+</details>
 
 # Projeto 3: 2º semestre de 2022
 

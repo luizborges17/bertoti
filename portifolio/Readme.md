@@ -195,15 +195,15 @@ Desenvolvimento focado na stack de back-end, construção e desenvolvimentos de 
 <br>
 <br>
 <br>
-       Foi realizado o tratamento dos dados para que seja possível consumir os dados de uma forma fácil
+       Consulta de comentários de clientes no banco de dados utilizando SQL.
 <br>
 <br>
 <br>
-        <img src="https://github.com/luizborges17/bertoti/commit/16fbde353d2cec0dfd4e2eacfbc612e60bbef5ee" height="450" width="600"/>    
+        <img src="https://github.com/luizborges17/bertoti/blob/main/portifolio/images/ComentarioDAO.png" height="450" width="800"/>    
     
     
     
-<p>• O código cria um novo DataFrame chamado 'df_estadotratado' a partir do DataFrame original 'df_state', removendo a coluna 'nome_munic'. Em seguida, uma nova coluna chamada 'estado' é adicionada com o valor 'SÃO PAULO' para todas as entradas. O DataFrame é ordenado por 'datahora', mas essa operação não é atribuída de volta ao DataFrame. As colunas 'casos', 'casos_novos', 'obitos', 'obitos_novos' e 'pop' são agrupadas e transformadas para representar as somas cumulativas por data. Por fim, são removidas as duplicatas com base na coluna 'datahora', mantendo apenas a primeira ocorrência para cada data no DataFrame resultante 'df_estadotratado'.
+<p>• Este trecho de código define a classe ComentarioDAO, responsável por interagir com um banco de dados para consultar comentários de clientes. A classe utiliza uma ConnectionFactory para estabelecer conexões com o banco de dados. O método consultarcomentario aceita dois parâmetros, idcliente e etapa, e define uma consulta SQL para obter o comentário correspondente. Dentro de um bloco try-with-resources, são criados uma nova conexão e um PreparedStatement para garantir o fechamento correto dos recursos. Os parâmetros são definidos na consulta SQL, que é então executada, e o resultado (comentário) é armazenado em um objeto ComentarioDTO. Em caso de exceção, a pilha de erros é impressa e uma RuntimeException é lançada.
     
 </details>
 
@@ -212,14 +212,14 @@ Desenvolvimento focado na stack de back-end, construção e desenvolvimentos de 
 <br>
 <br>
 <br>
-        Realizei os gráficos para que exista diferentes tipos de visualizações dos dados.
+        Foi implementado classes DTO juntamente com o conceito de OO
 <br>
 <br>
 <br>
 <img src="https://github.com/luizborges17/bertoti/blob/main/portifolio/images/AtributosDTO.png"/> 
 <img src="https://github.com/luizborges17/bertoti/blob/main/portifolio/images/MetodosDTO.png"/> 
     
-<p>• Para realizar a construção dos gráficos utilizei a biblioteca Plotly gerando uma figura e definindo os seus valores que são respectivos as colunas definidas do dataframe.        
+<p>• Classes DTO (Data Transfer Object) são utilizadas para transportar dados entre diferentes partes de um sistema, facilitando a transferência eficiente de informações sem comportamentos adicionais. Os benefícios incluem a simplificação da transferência de dados, redução do acoplamento entre camadas do sistema e melhora na clareza do código. O uso de DTOs promove uma separação clara entre a lógica de negócios e a representação dos dados, alinhando-se aos princípios de encapsulamento e modularidade da Programação Orientada a Objetos (OO). Isso resulta em um código mais organizado, manutenível e fácil de testar.        
     
     
 </details>
@@ -227,35 +227,25 @@ Desenvolvimento focado na stack de back-end, construção e desenvolvimentos de 
 ### Aprendizados Efetivos 
 
 <details>
-<summary>Python</summary>
+<summary>Java</summary>
 
 <p>• Desenvolvimento de software
     
-<p>• Manipulação de dados
+<p>• Conexção com banco de dados
     
-<p>• Realizar CRUD com o ecossistema Spring
+<p>• CRUD utilizando hibernate
     
 </details>
 
 <details>
-<summary>Pandas</summary>
+<summary>OO</summary>
     
-<p>• Tratamento de csv's
+<p>• Encapsulamento
 
-<p>• Tratamento de dados
+<p>• Polimorfismo
     
-<p>• Manipulação de csv's
+<p>• Abstração
         
-    
-</details>
-
-<details>
-<summary>Plotly</summary>
-    
-<p>• Construção de gráficos
-
-<p>• Plotagem de gráficos
-    
     
 </details>
 

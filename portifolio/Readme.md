@@ -149,35 +149,35 @@ A empresa busca uma solução que seja orientada a entrada de dados de parâmetr
 <details>
 <summary>Java</summary>
 
-<p>• Python foi escolhido para o projeto devido à sua eficiência e flexibilidade. Utilizamos as bibliotecas Matplotlib para gerar gráficos de forma clara. As operações de manipulação de dados foram realizadas com Pandas e NumPy, garantindo análises detalhadas. A normalização dos dados foi alcançada de maneira eficaz usando as capacidades do NumPy. A linguagem facilitou o desenvolvimento eficiente e a implementação de práticas robustas. O projeto beneficiou-se da versatilidade do Python em visualização, tratamento e normalização de dados.
+<p>• Java foi escolhido para desenvolver aplicações desktop devido à sua portabilidade, permitindo que o código seja executado em várias plataformas sem necessidade de recompilação. Além disso, sua ampla adoção e comunidade ativa oferecem uma vasta gama de recursos e suporte. A linguagem foi projetada com recursos de segurança robustos, incluindo execução de código em um ambiente sandbox. Com frameworks como JavaFX e Swing, o desenvolvimento de interfaces gráficas de usuário é simplificado. E, por ser suportado por empresas como a Oracle, Java oferece atualizações contínuas e suporte corporativo.
     
 </details>
 
 <details>
-<summary>Pandas</summary>
+<summary>JavaFX</summary>
 
-<p>• No projeto, o Pandas foi essencial para manipular, tratar e normalizar dados, proporcionando eficiência na leitura e manipulação de conjuntos de dados. Além de facilitar uma análise detalhada, a biblioteca foi empregada na geração de gráficos visuais representativos. A normalização dos dados foi realizada de maneira eficaz com as funções integradas do Pandas, garantindo uniformidade nos resultados. Sua contribuição simplificou a complexidade associada à manipulação de dados, resultando em análises mais precisas e confiáveis..
+<p>• JavaFX é uma escolha poderosa para projetos desktop devido à sua capacidade de criar interfaces gráficas de usuário modernas e interativas. Com recursos como gráficos 2D e 3D, animações, efeitos visuais e suporte para CSS, JavaFX permite desenvolver aplicações visualmente atraentes. Além disso, sua integração nativa com Java simplifica o desenvolvimento e oferece excelente desempenho em diferentes plataformas.
     
 </details>
 
 
 
 <details>
-<summary>Plotly</summary>
+<summary>Hibernate</summary>
 
-<p>• O Plotly foi escolhido no projeto para visualização de dados, destacando-se por sua capacidade de criar gráficos interativos e informativos. Embora não seja convencional para normalização, sua aplicação dinâmica na análise proporcionou uma compreensão mais profunda das distribuições. O Plotly contribuiu para o tratamento e exploração dinâmica dos dados, complementando técnicas de normalização e facilitando a identificação de padrões. Sua integração enriqueceu a análise, oferecendo uma perspectiva visual e interativa única..
+<p>• O Hibernate é um framework de mapeamento objeto-relacional (ORM) em Java que permite a persistência de objetos Java em bancos de dados relacionais. Ele faz isso mapeando classes Java para tabelas de banco de dados e gerenciando automaticamente as operações de CRUD (Create, Read, Update, Delete). O Hibernate usa mapeamentos XML ou anotações para definir a correspondência entre as classes Java e as tabelas do banco de dados. Isso simplifica o desenvolvimento, evita a escrita manual de SQL e oferece um alto nível de abstração para interagir com o banco de dados.
     
 </details>
 
 ### Contribuições Pessoais
-Desenvolvimento focado na stack de back-end, construção e desenvolvimentos de metodos utilizando Python, Pandas, NumPy e Plotly. Solucionei durante o projeto alguns desafios:
+Desenvolvimento focado na stack de back-end, construção e desenvolvimentos de metodos utilizando Java e Hibernate. Solucionei durante o projeto alguns desafios:
 
 <details>
 <summary>Java Connection</summary>
 <br>
 <br>
 <br>
-        A normalização dos dados possibilitou a plotagem e manipulação dos dados de forma fácil
+       Foi criada uma classe para poder realizar a conexão com o banco de dados
 <br>
 <br>
 <br>
@@ -185,7 +185,7 @@ Desenvolvimento focado na stack de back-end, construção e desenvolvimentos de 
     
     
     
-<p>• O código utiliza a biblioteca Pandas para ler um arquivo CSV ('docs/df_state.csv') em um DataFrame chamado 'df_state'. Em seguida, algumas colunas específicas são removidas do DataFrame usando o método 'drop'. As colunas removidas incluem informações como datas, casos e óbitos per capita, entre outras. Posteriormente, os nomes dos municípios no DataFrame são convertidos para maiúsculas, e a coluna 'datahora' é convertida para o formato de data utilizando o método 'pd.to_datetime'. O resultado é um DataFrame preparado para análise, com algumas colunas removidas e dados formatados adequadamente.
+<p>• Este código Java define uma classe chamada ConexaoDAO, que tem um método chamado conectaBD(). Dentro deste método, uma string chamada connectionUrl é definida, especificando os detalhes de conexão com um banco de dados SQL Server hospedado na URL fornecida. Em seguida, uma conexão é estabelecida usando o DriverManager do JDBC, utilizando a string de conexão. Finalmente, a conexão é retornada como um objeto Connection. Este código encapsula a lógica de conexão com o banco de dados, facilitando a reutilização em todo o projeto
     
 </details>
 

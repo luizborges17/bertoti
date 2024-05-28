@@ -562,4 +562,126 @@ uma interface do Spring Security para autenticar usuários. O método autenticar
     
 </details>
 
+# Projeto 5: 2º semestre de 2023
+
+
+ORACLE
+
+<img src="https://raw.githubusercontent.com/Fluffy-Fatec/Projeto-Integrador-Oracle/main/Documentacao/Team/imgOracleFatec_1.jpg" height="300"/>
+
+A Oracle Corporation é uma empresa global de tecnologia conhecida por seus produtos de banco de dados e software empresarial. Ela oferece uma ampla gama de serviços, incluindo computação em nuvem, software de gestão empresarial e hardware. A empresa é líder no mercado de banco de dados e fornece soluções para empresas de todos os tamanhos e setores. Além disso, a Oracle está envolvida em pesquisa e desenvolvimento de tecnologias inovadoras, como inteligência artificial e blockchain. Sua abordagem de negócios inclui parcerias estratégicas e aquisições para expandir seu portfólio e alcance global.
+
+### Visão do Projeto
+Neste desafio, você terá a oportunidade de criar uma plataforma online que permitirá aos proprietários de restaurantes gerenciar suas operações de maneira eficiente e intuitiva. O objetivo é criar um sistema abrangente que ofereça recursos como painéis de controle, gráficos, relatórios e funcionalidades para gerenciar pessoal, fornecedores e insumos.
+
+### Tecnologias utilizadas
+<details>
+<summary>Spring</summary>
+
+<p>• Utilizando se do ecossistema Spring, foi implementado no projeto: Spring-boot, Spring-security e Spring-data, principalmente foi utilizado para realizar o controle e a injeção de dependências. Pela parte do Spring-boot foi possível alimentar o dashboard e cards que apresentavam os dados, através de requisições HTTP utilizando a arquitetura Rest. O Spring-security foi implementado para utilizar se de sua criptografia do pacote "cripto" em dados sensíveis e o Spring-data utilizamos para poder realizar operações com o banco de dados.
+    
+</details>
+
+<details>
+<summary>Hibernate</summary>
+
+<p>• O Hibernate é um framework de mapeamento objeto-relacional (ORM) em Java que permite a persistência de objetos Java em bancos de dados relacionais. Ele faz isso mapeando classes Java para tabelas de banco de dados e gerenciando automaticamente as operações de CRUD (Create, Read, Update, Delete). O Hibernate usa mapeamentos XML ou anotações para definir a correspondência entre as classes Java e as tabelas do banco de dados. Isso simplifica o desenvolvimento, evita a escrita manual de SQL e oferece um alto nível de abstração para interagir com o banco de dados.
+    
+</details>
+
+
+
+<details>
+<summary>PostgreSQL</summary>
+
+<p>• O PostgreSQL é um sistema de gerenciamento de banco de dados relacional de código aberto amplamente utilizado. Oferece confiabilidade, escalabilidade e suporte para recursos avançados como JSON, geoespacial e transações ACID. Sua comunidade ativa e extensibilidade o tornam uma escolha sólida para diversas aplicações.
+    
+</details>
+
+<details>
+<summary>Liquibase</summary>
+
+<p>• O Liquibase é uma ferramenta de controle de versão para bancos de dados, permitindo o gerenciamento de esquemas e migrações de forma automatizada. Ele oferece rastreabilidade, facilidade na implementação de mudanças e suporte para múltiplos bancos de dados. Sua abordagem baseada em XML ou YAML simplifica o controle de alterações em ambientes de desenvolvimento e produção, facilitando a colaboração em equipes de desenvolvimento.
+    
+</details>
+
+
+### Contribuições Pessoais
+Desenvolvimento focado no banco de dados e implementação da cultura devops utilizando Liquibase. Solucionei durante o projeto alguns desafios:
+
+<details>
+<summary>Versionamento de banco de dados</summary>
+<br>
+<br>
+    Arquivos do liquibase:
+<br>
+        <img src="https://github.com/luizborges17/bertoti/blob/main/portifolio/images/packages%20liquibase.png" height="450" width="600"/>    
+    
+<br>
+<br>
+    Arquivo Master.xml:
+<br>    
+        <img src="https://raw.githubusercontent.com/luizborges17/bertoti/e778d8a0790fa11e16da9783c92948920cb9420f/portifolio/images/master-xml.png" height="450" width="600"/>
+        
+<p>•Este código XML configura o Liquibase para aplicar todas as alterações contidas nos arquivos de changelog localizados no diretório especificado. Ele simplifica o processo de gerenciamento e aplicação de alterações no esquema do banco de dados.
+
+<br>
+<br>
+    Arquivo Changelog.xml:
+<br>    
+        <img src="https://raw.githubusercontent.com/luizborges17/bertoti/03ac176e17931296065a89c48f4643621a649e9d/portifolio/changelog.png" height="450" width="600"/>
+        
+<p>•Este código XML define uma série de alterações no esquema de um banco de dados usando o Liquibase. Cada seção, identificada por um changeSet, representa uma modificação específica, como a criação de tabelas, colunas, chaves estrangeiras e sequências. Isso permite uma abordagem automatizada e rastreável para gerenciar a evolução do esquema do banco de dados ao longo do tempo, facilitando o desenvolvimento e a implantação de aplicações. O Liquibase garante a consistência e integridade do esquema, tornando as operações de migração mais seguras e confiáveis.  
+
+</details>
+
+<details>
+<summary>Configuração do liquibase</summary>
+    
+<br>
+<br>
+<br>
+<img src="https://github.com/luizborges17/bertoti/blob/main/portifolio/images/plugin-liquibase.png?raw=true"/>    
+<p>• No pom.xml, o plugin do Liquibase é configurado para gerenciar alterações no banco de dados. As configurações incluem detalhes de conexão com o banco Oracle, localização dos arquivos de changelog e definição de dependências. Essas configurações permitem que o Liquibase aplique automaticamente alterações no esquema durante o ciclo de compilação do Maven.
+
+<br>
+<br>
+<img src="https://github.com/luizborges17/bertoti/blob/main/portifolio/images/liquibase%20properties.png?raw=true"/>    
+<p>• Essa linha de configuração no Liquibase, spring.liquibase.change-log=liquibase/master.xml, especifica o local do arquivo de changelog que contém as instruções de alterações no esquema do banco de dados. É importante porque permite ao Liquibase localizar e executar automaticamente as mudanças definidas no arquivo master.xml, facilitando a manutenção e o controle das versões do banco de dados em ambientes de desenvolvimento e produção, garantindo assim consistência e integridade nos processos de desenvolvimento e implantação de aplicativos Spring.
+    
+</details>
+
+### Aprendizados Efetivos 
+
+<details>
+<summary>Liquibase</summary>
+
+<p>• Configuração e implementação do Liquibase
+    
+<p>• Gerenciamento de changelogs
+    
+</details>
+
+<details>
+<summary>Devops</summary>
+    
+<p>• Gerenciamento de banco de dados automatizado
+
+<p>• Automatização de processos
+    
+</details>
+
+<details>
+<summary>Versionamento de banco de dados</summary>
+    
+<p>• Consistência entre Ambientes
+    
+<p>• Agilidade no Desenvolvimento
+
+<p>• Segurança e Conformidade
+        
+    
+</details>
+
+
 

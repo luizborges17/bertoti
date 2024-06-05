@@ -4,12 +4,21 @@
 
 Olá, seja bem vindo ao meu portifólio universitário. Meu nome é Luiz Felipe e estou cursando Banco de Dados na Fatec Professor Jessen Vidal
 
-Tenho 20 anos e estou atuand no momento, como Desenvolvedor Backend para a IBM no projeto do Itaú, concentro-me em Java (Spring Boot) para micro serviços que também contém Kafka, Redis. Já atuei com integradores financeiros usando Nest.Js e AWS (EC2 e S3). Em projetos anteriores, utilizei Java (Spring Boot), JavaScript (Node, Nest), Python (Django). Essas experiências destacam minha proficiência em tecnologias como Java, Node, Python, e a integração com serviços AWS, evidenciando minha versatilidade em ambientes de desenvolvimento variados.
+Tenho 20 anos e estou atuando no momento, como Desenvolvedor Backend na Act Digital para o cliente Bradesco, concentro-me em Java (Spring Boot) na construcao de API'S que também contém Kafka, Redis. 
 
-<img src="https://github.com/luizborges17/bertoti/blob/main/portifolio/images/eu.jpeg" height="300" width="230"/>
+<img src="https://github.com/luizborges17/bertoti/blob/main/portifolio/images/fotoMinha.jpeg?raw=true" height="300" width="230"/>
+
+## Contatos
+* [GIT](https://github.com/luizborges17)
+* [LinkedIn](https://www.linkedin.com/in/luizborges17/)
+
+## Meus Principais Conhecimentos
+Sou um desenvolvedor back-end com ampla experiência em tecnologias como Java, JavaScript, TypeScript e Python, focando em metodologias ágeis e aprimoramento da experiência do usuário. Tenho expertise em frameworks como Spring, Nest, Node e Django, além de práticas de TDD com JUnit e Mockito, e testes com Jest. Possuo experiência na construção de microserviços utilizando Kafka e na integração com sistemas financeiros. Trabalhei no Itaú desenvolvendo microserviços para autorização e autenticação, utilizando Java, Spring Boot e Node.js, além de bancos de dados como MySQL, Redis e MongoDB. Na Quantus, desenvolvi soluções RESTful API em Java e microserviços de mensageria com Kafka e AWS. Em parceria com Oracle, Embraer, Iacit e Dom Rock, atuei em diversos projetos utilizando Java, Spring Boot e serviços de nuvem. Durante minha graduação na Fatec São José dos Campos, desenvolvi habilidades em desenvolvimento de software e manutenção de bancos de dados. Pretendo aprimorar minhas habilidades em Java, Spring Boot, microserviços e cloud computing, além de desenvolver competências em liderança de projetos e metodologias ágeis.
 
 
-# Projeto 1: 2º semestre de 2021
+# Meus Projetos
+
+## Projeto 1: 2º semestre de 2021
 
 
 SPanel
@@ -20,7 +29,9 @@ SPanel
 ### Visão do Projeto
 Com intuito de aprimorar e agilizar o acesso aos números da COVID-19 disponibilizados pelo Estado de São Paulo, foi desenvolvido a SPanel, uma plataforma virtual que centraliza os principais dados da pandemia em uma interface fácil de navegar e entender. O principal objetivo do SPanel era reunir e apresentar as informações da pandemia do COVID-19 no estado de São Paulo, de maneira simples e intuítiva, permitindo ao usuário diferentes tipos de visualizações.
 
-### Tecnologias utilizadas
+[GIT](https://github.com/luizborges17/SPanel)
+
+### Hards Skills
 <details>
 <summary>Python</summary>
 
@@ -41,6 +52,30 @@ Com intuito de aprimorar e agilizar o acesso aos números da COVID-19 disponibil
 <summary>Plotly</summary>
 
 <p>• O Plotly foi escolhido no projeto para visualização de dados, destacando-se por sua capacidade de criar gráficos interativos e informativos. Embora não seja convencional para normalização, sua aplicação dinâmica na análise proporcionou uma compreensão mais profunda das distribuições. O Plotly contribuiu para o tratamento e exploração dinâmica dos dados, complementando técnicas de normalização e facilitando a identificação de padrões. Sua integração enriqueceu a análise, oferecendo uma perspectiva visual e interativa única..
+    
+</details>
+
+### Soft Skills
+<details>
+<summary>Comunicação</summary>
+
+<p>• Facilitou a troca clara e eficiente de informações entre os membros da equipe e clientes. Isso ajuda a evitar mal-entendidos e garante que todos estejam alinhados com os objetivos do projeto.
+    
+</details>
+
+<details>
+<summary>Liderança</summary>
+
+<p>• Como scrum master orientei a equipe, defini direções claras e ajudei os membros a alcançar suas metas. Um bom líder pode motivar a equipe, resolver conflitos e tomar decisões estratégicas que beneficiem o projeto.
+    
+</details>
+
+
+
+<details>
+<summary>Gestão de Tempo</summary>
+
+<p>• Ajudei a manter o projeto dentro dos prazos estabelecidos. A habilidade de priorizar tarefas e gerir eficientemente o tempo disponível é crucial para cumprir cronogramas e evitar atrasos
     
 </details>
 
@@ -133,7 +168,7 @@ Desenvolvimento focado na stack de back-end, construção e desenvolvimentos de 
     
 </details>
 
-# Projeto 2: 1º semestre de 2022
+## Projeto 2: 1º semestre de 2022
 
 
 Dom Rock
@@ -145,7 +180,9 @@ A Dom Rock, empresa fundada em 2013, desenvolve tecnologia de inteligência de d
 ### Visão do Projeto
 A empresa busca uma solução que seja orientada a entrada de dados de parâmetros e variáveis de cada cliente para alocar recursos na plataforma Dom Rock, entrada de dados e estimativa de consumo de recursos (baseado em volume de dados de cliente, quantidade de usuários e outros) e gere relatórios e consultas, mas, principalmente, tenha a base de dados modelada adequadamente para futuras integrações com outros sistemas. 
 
-### Tecnologias utilizadas
+[GIT](https://github.com/luizborges17/Dom_Rock)
+
+### Hards Skills
 <details>
 <summary>Java</summary>
 
@@ -166,6 +203,30 @@ A empresa busca uma solução que seja orientada a entrada de dados de parâmetr
 <summary>Hibernate</summary>
 
 <p>• O Hibernate é um framework de mapeamento objeto-relacional (ORM) em Java que permite a persistência de objetos Java em bancos de dados relacionais. Ele faz isso mapeando classes Java para tabelas de banco de dados e gerenciando automaticamente as operações de CRUD (Create, Read, Update, Delete). O Hibernate usa mapeamentos XML ou anotações para definir a correspondência entre as classes Java e as tabelas do banco de dados. Isso simplifica o desenvolvimento, evita a escrita manual de SQL e oferece um alto nível de abstração para interagir com o banco de dados.
+    
+</details>
+
+### Soft Skills
+<details>
+<summary>Comunicação</summary>
+
+<p>• Facilitou a troca clara e eficiente de informações entre os membros da equipe e clientes. Isso ajuda a evitar mal-entendidos e garante que todos estejam alinhados com os objetivos do projeto.
+    
+</details>
+
+<details>
+<summary>Adaptabilidade</summary>
+
+<p>• Permitiu que a resposta da equipe eficazmente a mudanças e imprevistos. Projetos raramente seguem exatamente como planejado, e a adaptabilidade garantiu o ajuste da equipe rapidamente a novas circunstâncias.
+    
+</details>
+
+
+
+<details>
+<summary>Resolução de Problemas</summary>
+
+<p>• Me capacitou a identificar e solucionar obstáculos rapidamente. Uma abordagem proativa na resolução de problemas mantém o projeto em movimento e evita que pequenos problemas se tornem grandes desafios.
     
 </details>
 
@@ -249,7 +310,7 @@ Desenvolvimento focado na stack de back-end, construção e desenvolvimentos de 
     
 </details>
 
-# Projeto 3: 2º semestre de 2022
+## Projeto 3: 2º semestre de 2022
 
 
 IACIT
@@ -263,8 +324,10 @@ Um importante polo da indústria aeroespacial brasileira, fundada em 1986, a IAC
 ### Visão do Projeto
 A Iacit é uma empresa de consultoria meteorológica, e hoje, um dos seus serviços é fornecer aos nossos clientes, relatórios customizados de dados meteorológicos. Como alguns de seus processos necessitam de trabalho manuais, e muitas das vezes é desperdiçado recursos e tempo. Por isso, criamos um sistema web que permite realizar a importação dos dados meteorológicos, bem como armazená-los em um banco de dados relacional, e oferecer diferentes tipos de visualizações de tipos de dados sendo possível  gerar os relatórios customizados de forma que o usuário desejar.
 
+[GIT](https://github.com/fluffyfatec/Iacit)
 
-### Tecnologias utilizadas
+
+### Hards Skills
 <details>
 <summary>Spring</summary>
 
@@ -301,6 +364,30 @@ A Iacit é uma empresa de consultoria meteorológica, e hoje, um dos seus servi�
     
 </details>
 
+
+### Soft Skills
+<details>
+<summary>Comunicação</summary>
+
+<p>• Facilitou a troca clara e eficiente de informações entre os membros da equipe e clientes. Isso ajuda a evitar mal-entendidos e garante que todos estejam alinhados com os objetivos do projeto.
+    
+</details>
+
+<details>
+<summary>Trabalho em Equipe</summary>
+
+<p>• Promoveu a colaboração e o apoio mútuo, permitindo que as habilidades individuais se complementem. Isso resulta em uma abordagem mais coesa e eficiente para alcançar os objetivos do projeto.
+    
+</details>
+
+
+
+<details>
+<summary>Resolução de Problemas</summary>
+
+<p>• Me capacitou a identificar e solucionar obstáculos rapidamente. Uma abordagem proativa na resolução de problemas mantém o projeto em movimento e evita que pequenos problemas se tornem grandes desafios.
+    
+</details>
 
 
 ### Contribuições Pessoais
@@ -416,7 +503,7 @@ Desenvolvimento focado na stack de back-end, construção e desenvolvimentos de 
 </details>
 
 
-# Projeto 4: 1º semestre de 2023
+## Projeto 4: 1º semestre de 2023
 
 
 EMBRAER
@@ -430,8 +517,9 @@ A Embraer é uma empresa brasileira de aviação com uma história de destaque n
 ### Visão do Projeto
 Desenvolvemos um sistema de Controle de Configuração de Aeronaves (ACC) para a Embraer, líder global na fabricação de aeronaves militares, comerciais, executivas e agrícolas. Como terceira maior empresa de aviação executiva do mundo, a Embraer está desafiando a dominância europeia e americana no setor. O ACC permite à Embraer gerenciar eficientemente a configuração de suas aeronaves, garantindo qualidade e eficácia na produção, além de possibilitar que os pilotos verifiquem a configuração e limitações das aeronaves que operam.
 
+[GIT](https://github.com/luizborges17/HEXTECH-API4sem)
 
-### Tecnologias utilizadas
+### Hards Skills
 <details>
 <summary>Spring</summary>
 
@@ -459,6 +547,30 @@ Desenvolvemos um sistema de Controle de Configuração de Aeronaves (ACC) para a
 <summary>Swagger-OpenAPI</summary>
 
 <p>• O Swagger, agora conhecido como OpenAPI, é uma ferramenta que permite a documentação e a exposição de APIs de forma padronizada. Ele define um formato de especificação que descreve detalhadamente as operações, parâmetros e respostas de uma API, facilitando sua compreensão e uso. O Swagger/OpenAPI é fundamental para promover a interoperabilidade e facilitar a integração de serviços, além de melhorar a comunicação entre equipes de desenvolvimento e documentação precisa, economizando tempo e esforço na criação e manutenção de APIs.
+    
+</details>
+
+### Soft Skills
+<details>
+<summary>Comunicação</summary>
+
+<p>• Facilitou a troca clara e eficiente de informações entre os membros da equipe e clientes. Isso ajuda a evitar mal-entendidos e garante que todos estejam alinhados com os objetivos do projeto.
+    
+</details>
+
+<details>
+<summary>Trabalho em Equipe</summary>
+
+<p>• Promoveu a colaboração e o apoio mútuo, permitindo que as habilidades individuais se complementem. Isso resulta em uma abordagem mais coesa e eficiente para alcançar os objetivos do projeto.
+    
+</details>
+
+
+
+<details>
+<summary>Resolução de Problemas</summary>
+
+<p>• Me capacitou a identificar e solucionar obstáculos rapidamente. Uma abordagem proativa na resolução de problemas mantém o projeto em movimento e evita que pequenos problemas se tornem grandes desafios.
     
 </details>
 
@@ -562,7 +674,7 @@ uma interface do Spring Security para autenticar usuários. O método autenticar
     
 </details>
 
-# Projeto 5: 2º semestre de 2023
+## Projeto 5: 2º semestre de 2023
 
 
 ORACLE
@@ -574,7 +686,9 @@ A Oracle Corporation é uma empresa global de tecnologia conhecida por seus prod
 ### Visão do Projeto
 Neste desafio, você terá a oportunidade de criar uma plataforma online que permitirá aos proprietários de restaurantes gerenciar suas operações de maneira eficiente e intuitiva. O objetivo é criar um sistema abrangente que ofereça recursos como painéis de controle, gráficos, relatórios e funcionalidades para gerenciar pessoal, fornecedores e insumos.
 
-### Tecnologias utilizadas
+[GIT](https://github.com/Fluffy-Fatec/Projeto-Integrador-Oracle)
+
+### Hards Skills
 <details>
 <summary>Spring</summary>
 
@@ -605,6 +719,30 @@ Neste desafio, você terá a oportunidade de criar uma plataforma online que per
     
 </details>
 
+### Soft Skills
+<details>
+<summary>Comunicação</summary>
+
+<p>• Facilitou a troca clara e eficiente de informações entre os membros da equipe e clientes. Isso ajuda a evitar mal-entendidos e garante que todos estejam alinhados com os objetivos do projeto.
+    
+</details>
+
+<details>
+<summary>Trabalho em Equipe</summary>
+
+<p>• Promoveu a colaboração e o apoio mútuo, permitindo que as habilidades individuais se complementem. Isso resulta em uma abordagem mais coesa e eficiente para alcançar os objetivos do projeto.
+    
+</details>
+
+
+
+<details>
+<summary>Inovação</summary>
+
+<p>• Incentivou a busca por novas ideias e abordagens para resolver problemas e melhorar processos. A inovação pode levar a soluções mais eficazes e eficientes, agregando valor ao projeto.
+    
+</details>
+
 
 ### Contribuições Pessoais
 Desenvolvimento focado no banco de dados e implementação da cultura devops utilizando Liquibase. Solucionei durante o projeto alguns desafios:
@@ -626,6 +764,12 @@ Desenvolvimento focado no banco de dados e implementação da cultura devops uti
 <p>•Este código XML configura o Liquibase para aplicar todas as alterações contidas nos arquivos de changelog localizados no diretório especificado. Ele simplifica o processo de gerenciamento e aplicação de alterações no esquema do banco de dados.
 
 <br>
+</details>
+
+<details>
+<summary>Criacao de tabelas</summary>
+<br>
+
 <br>
     Arquivo Changelog.xml:
 <br>    
@@ -683,5 +827,132 @@ Desenvolvimento focado no banco de dados e implementação da cultura devops uti
     
 </details>
 
+## Projeto 6: 2º semestre de 2023
+
+
+IMAGEM
+
+<img src="https://github.com/luizborges17/bertoti/blob/main/portifolio/images/imagem.jpg?raw=true" height="400"/>
+
+A Imagem Geossistemas é uma empresa brasileira líder em soluções de geotecnologia, especializada na integração de sistemas de informação geográfica (SIG). Fundada em 1986, a Imagem é a distribuidora oficial da Esri no Brasil, fornecendo a plataforma ArcGIS, amplamente utilizada para a gestão, análise e visualização de dados geoespaciais. A empresa oferece uma gama completa de serviços, incluindo consultoria, implementação, suporte técnico e treinamento, atendendo a diversos setores como governo, meio ambiente, infraestrutura, segurança pública, agricultura, e recursos naturais. Com foco na inovação e excelência, a Imagem Geossistemas auxilia organizações a otimizar processos, tomar decisões mais informadas e enfrentar desafios complexos através do poder dos dados geoespaciais.
+
+### Visão do Projeto
+ Nosso objetivo é compreender minuciosamente a opinião dos clientes por meio de uma avançada plataforma de análise de avaliações online. Utilizando tecnologias inovadoras, criamos um sistema que identificava e apresentava os sentimentos dos clientes em relação a locais específicos no mundo real. Esse processo possibilitou a visualização de informações detalhadas, permitindo que as empresas ajustassem suas estratégias de negócios com base em insights precisos.
+
+[GIT](https://github.com/Fluffy-Fatec/Projeto-Integrador-Imagem)
+
+### Hards Skills
+<details>
+<summary>Spring</summary>
+
+<p>• Utilizando se do ecossistema Spring, foi implementado no projeto: Spring-boot, Spring-security e Spring-data, principalmente foi utilizado para realizar o controle e a injeção de dependências. Pela parte do Spring-boot foi possível alimentar o dashboard e cards que apresentavam os dados, através de requisições HTTP utilizando a arquitetura Rest. O Spring-security foi implementado para utilizar se de sua criptografia do pacote "cripto" em dados sensíveis e o Spring-data utilizamos para poder realizar operações com o banco de dados.
+    
+</details>
+
+<details>
+<summary>MongoDB</summary>
+
+<p>• O MongoDB é um banco de dados NoSQL amplamente utilizado, especialmente em ambientes de desenvolvimento web, que oferece uma abordagem flexível e escalável para o armazenamento de dados. Diferentemente dos bancos de dados relacionais tradicionais, o MongoDB não exige um esquema fixo, permitindo que os dados sejam armazenados em documentos flexíveis no formato JSON. Isso proporciona uma maior agilidade no desenvolvimento, pois os desenvolvedores podem modelar os dados de forma mais livre e dinâmica. O MongoDB é altamente eficiente para operações de leitura e gravação, oferecendo uma estrutura poderosa para consultas e análises de dados. Sua flexibilidade e desempenho o tornam uma escolha popular para aplicativos que demandam escalabilidade e agilidade no desenvolvimento.
+    
+</details>
+
+
+
+<details>
+<summary>LGPD</summary>
+
+<p>• A implementação da LGPD (Lei Geral de Proteção de Dados) é um conjunto de medidas e práticas adotadas pelas organizações para garantir a conformidade com a legislação de proteção de dados pessoais. A LGPD estabelece diretrizes para a coleta, armazenamento, uso e compartilhamento de informações pessoais, visando proteger a privacidade e os direitos dos indivíduos. Para implementar a LGPD, as empresas precisam revisar e atualizar suas políticas de privacidade, garantir a transparência no tratamento dos dados, obter o consentimento adequado dos usuários para o uso de suas informações e adotar medidas de segurança para proteger os dados contra acessos não autorizados ou vazamentos. Além disso, é necessário designar um Encarregado de Proteção de Dados (DPO) responsável por garantir a conformidade com a LGPD e atuar como ponto de contato com as autoridades reguladoras. A implementação da LGPD requer um esforço conjunto de toda a organização, envolvendo áreas como TI, jurídico, recursos humanos e marketing, para garantir o cumprimento das exigências legais e a proteção efetiva dos dados pessoais dos usuários.
+    
+</details>
+
+### Soft Skills
+<details>
+<summary>Comunicação</summary>
+
+<p>• Facilitou a troca clara e eficiente de informações entre os membros da equipe e clientes. Isso ajuda a evitar mal-entendidos e garante que todos estejam alinhados com os objetivos do projeto.
+    
+</details>
+
+<details>
+<summary>Trabalho em Equipe</summary>
+
+<p>• Promoveu a colaboração e o apoio mútuo, permitindo que as habilidades individuais se complementem. Isso resulta em uma abordagem mais coesa e eficiente para alcançar os objetivos do projeto.
+    
+</details>
+
+
+
+<details>
+<summary>Inovação</summary>
+
+<p>• Incentivou a busca por novas ideias e abordagens para resolver problemas e melhorar processos. A inovação pode levar a soluções mais eficazes e eficientes, agregando valor ao projeto.
+    
+</details>
+
+
+### Contribuições Pessoais
+Desenvolvimento focado no banco de dados e implementação da cultura devops utilizando Liquibase. Solucionei durante o projeto alguns desafios:
+
+<details>
+<summary>Deletar usuario</summary>
+<br>
+<br>
+    Metodo de deletar usuario:
+<br>
+        <img src="https://github.com/luizborges17/bertoti/blob/main/portifolio/images/fluxo_exclusao.jpeg?raw=true" height="450" width="600"/>    
+    
+<br>
+<br>
+<p>• Seguindo as implementaçôes exigidas pela LGPD, se caso fosse solicitado a exclusão de um usuario de nossas bases, todos os dados do usuário serão exlcuídos permanemtemente. Desta forma o usuario solicita a exclusão, o backend exclui na versao atual do banco de dados e adiciona o Id do usuario em uma collection no MongoDB para que um script externo posso saber quais ID's devem ser deletados ao realizar um possível backup.
+
+</details>
+
+<details>
+<summary>Atualizar usuario</summary>
+<br>
+
+<br>
+    Solicitação de atualização de dados do usuário:
+<br>    
+        <img src="https://github.com/luizborges17/bertoti/blob/main/portifolio/images/fluxo_update.jpeg?raw=true" height="450" width="600"/>
+        
+<p>• Seguindo as implementaçôes exigidas pela LGPD, se caso fosse solicitado a alteração de dados por parte de um usuario comum, seria necessário passar pela aprovação de um usuário administrador para poder ser aprovado, logo seria atualizado, ou rejeitado, onde aconteceria a não atualização dos dados do usuário. Porém se a atualização fosse realizada por um administrador, não seria necessário passar por aprovação.
+
+</details>
+
+<details>
+<summary>Termo de Aceite</summary>
+    
+<br>
+<br>
+<br>
+<img src="https://raw.githubusercontent.com/luizborges17/bertoti/a6820b0eca2b18444de43bf3f088f8fc2e4b3b0f/portifolio/images/fluxo_termo.jpeg"/>    
+<p>• Neste exemplo é mostrado o fluxo dos termos de uso dos usuários, temos como premissa seguindo a LGPD que os usuários que queiram utilizar a nossa plataforma devem aceitar os termos, assim o backend verifica ao realizar o login se o usuário realizou o aceite do termo de uso, se sim ele permite o login, se caso não foi aceito a ultima versão do termo o backend devolve a request com instruções ao front para poder seguir o fluxo e aceitar o termo ou rejeitar.
+
+</details>
+
+### Aprendizados Efetivos 
+
+<details>
+<summary>LGPD</summary>
+
+<p>• Manipulação de dados pessoais
+    
+<p>• Manipulação de dados sensíveis
+
+<p>• Termo de uso
+    
+</details>
+
+<details>
+<summary>MongoDB</summary>
+    
+<p>• Integração com banco de dados não relacional
+
+<p>• Manipulação de dados utilizando banco de dados não relacional
+
+<p>• Manipulação de dados utilizando banco de dados não relacional
+    
+</details>
 
 

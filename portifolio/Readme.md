@@ -4,7 +4,7 @@
 
 Olá, seja bem vindo ao meu portifólio universitário. Meu nome é Luiz Felipe e estou cursando Banco de Dados na Fatec Professor Jessen Vidal
 
-Tenho 20 anos e estou atuando no momento, como Desenvolvedor Backend na Act Digital para o cliente Bradesco, concentro-me em Java (Spring Boot) na construcao de API'S que também contém Kafka, Redis. 
+Tenho 20 anos e estou atuando no momento, como Desenvolvedor Backend na Act Digital para o cliente Bradesco, concentro-me em Java (Spring Boot) na construcao de API'S e microserviços com Kafka, Redis. 
 
 <img src="https://github.com/luizborges17/bertoti/blob/main/portifolio/images/fotoMinha.jpeg?raw=true" height="300" width="230"/>
 
@@ -234,7 +234,7 @@ A empresa busca uma solução que seja orientada a entrada de dados de parâmetr
 Desenvolvimento focado na stack de back-end, construção e desenvolvimentos de metodos utilizando Java e Hibernate. Solucionei durante o projeto alguns desafios:
 
 <details>
-<summary>Java Connection</summary>
+<summary>JDBC</summary>
 <br>
 <br>
 <br>
@@ -342,28 +342,12 @@ A Iacit é uma empresa de consultoria meteorológica, e hoje, um dos seus servi�
     
 </details>
 
-
-
 <details>
-<summary>Javascript</summary>
+<summary>RESTful</summary>
 
-<p>• O JavaScript é uma linguagem de programação fundamental para o desenvolvimento de aplicações web modernas. Ele é amplamente utilizado no front-end para criar interfaces dinâmicas e interativas, tornando a experiência do usuário mais agradável e fluida. Com o JavaScript, é possível manipular elementos da página em tempo real, oferecendo recursos como animações, validação de formulários, exibição de conteúdo dinâmico e muito mais. Com isso, a importância do uso de JavaScript no front-end é inegável para a construção de sites eficientes e que atendam às expectativas dos usuários.
+<p>• RESTful é um estilo de arquitetura para criação de serviços web baseados em requisições HTTP. Utiliza métodos padrão como GET, POST, PUT e DELETE para realizar operações CRUD (Create, Read, Update, Delete) em recursos identificados por URLs. Cada recurso é representado por uma URL única, e os dados são normalmente enviados em formatos como JSON ou XML. A comunicação é stateless, ou seja, cada requisição é independente, não armazenando estado no servidor entre as requisições. RESTful é amplamente usado devido à sua simplicidade, escalabilidade e fácil integração com diversos clientes.
     
 </details>
-
-<details>
-<summary>HTML</summary>
-
-<p>• HTML é a linguagem de marcação padrão para a criação de páginas web. Ela permite a estruturação e organização do conteúdo da página, além de fornecer as informações necessárias para o navegador renderizá-la corretamente. O uso adequado do HTML é fundamental para criar sites acessíveis, bem estruturados e com boa semântica, tornando-os mais fáceis de serem encontrados e utilizados pelos usuários
-</details>
-
-<details>
-<summary>CSS</summary>
-
-<p>• CSS é uma linguagem de estilo utilizada para definir a aparência e o layout de uma página web. Seu uso é fundamental para criar designs atrativos, responsivos e funcionais, tornando a experiência do usuário mais agradável e eficiente.
-    
-</details>
-
 
 ### Soft Skills
 <details>
@@ -534,19 +518,17 @@ Desenvolvemos um sistema de Controle de Configuração de Aeronaves (ACC) para a
     
 </details>
 
+<details>
+<summary>Swagger-OpenAPI</summary>
 
+<p>• O Swagger, agora conhecido como OpenAPI, é uma ferramenta que permite a documentação e a exposição de APIs de forma padronizada. Ele define um formato de especificação que descreve detalhadamente as operações, parâmetros e respostas de uma API, facilitando sua compreensão e uso. O Swagger/OpenAPI é fundamental para promover a interoperabilidade e facilitar a integração de serviços, além de melhorar a comunicação entre equipes de desenvolvimento e documentação precisa, economizando tempo e esforço na criação e manutenção de APIs.
+    
+</details>
 
 <details>
 <summary>Maven</summary>
 
 <p>• O Maven é uma ferramenta de automação de construção (build) amplamente usada em desenvolvimento de software Java. Ele simplifica a compilação, teste, empacotamento e gerenciamento de dependências de projetos Java. O Maven é essencial para manter projetos organizados, padronizar builds e facilitar a colaboração entre desenvolvedores, garantindo que as bibliotecas e recursos necessários sejam gerenciados de forma eficiente.
-    
-</details>
-
-<details>
-<summary>Swagger-OpenAPI</summary>
-
-<p>• O Swagger, agora conhecido como OpenAPI, é uma ferramenta que permite a documentação e a exposição de APIs de forma padronizada. Ele define um formato de especificação que descreve detalhadamente as operações, parâmetros e respostas de uma API, facilitando sua compreensão e uso. O Swagger/OpenAPI é fundamental para promover a interoperabilidade e facilitar a integração de serviços, além de melhorar a comunicação entre equipes de desenvolvimento e documentação precisa, economizando tempo e esforço na criação e manutenção de APIs.
     
 </details>
 
@@ -579,7 +561,7 @@ Desenvolvemos um sistema de Controle de Configuração de Aeronaves (ACC) para a
 Desenvolvimento focado na stack de back-end, construção e desenvolvimentos de metodos utilizando Java com o framework Spring e seu ecossistema. Solucionei durante o projeto alguns desafios:
 
 <details>
-<summary>Tratamento de excessões</summary>
+<summary>Tratamento de exceções</summary>
 <br>
 <br>
 <br>
@@ -611,7 +593,7 @@ Desenvolvimento focado na stack de back-end, construção e desenvolvimentos de 
 
 
 <details>
-<summary>Método de Login </summary>
+<summary>Autenticação e Autorização</summary>
 <br>
 <br>
 <br>
@@ -629,7 +611,7 @@ uma interface do Spring Security para autenticar usuários. O método autenticar
 </details>
 
 <details>
-<summary>Método que lista todos os chassis</summary>
+<summary>Consulta de Aeronaves</summary>
     
 <br>
 <br>
@@ -653,7 +635,7 @@ uma interface do Spring Security para autenticar usuários. O método autenticar
 </details>
 
 <details>
-<summary>Tratamento de excessões com Spring</summary>
+<summary>Tratamento de exceções com Spring</summary>
     
 <p>• Java 11
 
@@ -955,4 +937,13 @@ Desenvolvimento focado no banco de dados e implementação da cultura devops uti
     
 </details>
 
-
+<details>
+<summary>Spring</summary>
+    
+<p>• Java 17
+    
+<p>• Realizar CRUD com o ecossistema Spring
+    
+<p>• Desenvolver códigos limpos em Java
+    
+</details>
